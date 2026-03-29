@@ -6,10 +6,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 
-df = pd.read_csv('D:/Broadway/Data Science - 2/fastapi/data/HR_Dataset Refresh.csv')
+df = pd.read_csv('data/HR_Dataset Refresh.csv')
 
-MODEL_PATH = 'D:/Broadway/Data Science - 2/fastapi/model/logistic_empstatus.pkl'
-SCALER_PATH = 'D:/Broadway/Data Science - 2/fastapi/model/logistic_scaler.pkl'
+MODEL_PATH = 'model/logistic_empstatus.pkl'
+SCALER_PATH = 'model/logistic_scaler.pkl'
 
 def predict_logistic():
     features = ['PerfScoreID', 'Salary', 'PositionID', 'EngagementSurvey', 'EmpSatisfaction',
