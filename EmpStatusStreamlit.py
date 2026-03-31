@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = 'https://empstatuslogistic.onrender.com/predict-status'
+API_URL = 'https://empstatuslogistic.onrender.com/predict-status/'
 
 st.header("Employee Termination or Active Prediction using Logistic Regression")
 st.subheader("Logisitc Regression Project")
